@@ -7,3 +7,16 @@
     padding: 0;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    div{
+        height: 140px;
+        width: calc(100% / 3);
+    }
+}
